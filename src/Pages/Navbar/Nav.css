@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+  .nav {
+    margin: 0 !important;
+  }
+
+  .links ul {
+    margin: 0 !important;
+    display: flex;
+    align-items: center;
+    font-size: 8px;
+  }
+  .links {
+    display: flex;
+  }
+
+  .logo {
+  }
+  /* Add these styles to your CSS file */
+  .links.hide {
+    display: none;
+  }
+
+  .links.show {
+    display: flex;
+    flex-direction: column;
+  }
+}

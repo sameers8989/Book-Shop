@@ -1,0 +1,15 @@
+.nav_main,
+.main {
+  background-color: #ccfaf0;
+}
+.sidebar-item:hover {
+  background-color: rgba(128, 128, 128, 0.156);
+}
+.sidebar-item {
+  padding: 16px;
+  cursor: pointer;
+}
+label {
+  font-size: 13px;
+  font-weight: bold;
+}

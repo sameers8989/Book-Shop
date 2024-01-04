@@ -1,0 +1,39 @@
+.book-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.book-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.book-item:hover {
+  transform: scale(1.05);
+}
+
+.book-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.book-details {
+  margin-top: 8px;
+}
+
+.book-title {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.author-name {
+  color: #777;
+}
